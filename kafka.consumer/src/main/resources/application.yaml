@@ -1,0 +1,13 @@
+topic:
+  name: cars
+
+server:
+  port: 8000
+
+spring:
+  kafka:
+    bootstrap-servers: 'localhost:9092'
+    consumer:
+      group-id: appCar
+
+
